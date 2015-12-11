@@ -25,6 +25,8 @@ function emailAsPDF() {
 
   // Subject of email message
   // The date time string can be formatted using Utilities.formatDate method
+  // see examples at https://developers.google.com/apps-script/reference/utilities/utilities#formatdatedate-timezone-format
+  // and http://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html
   var subject = "Metrics mailing - " + Utilities.formatDate(new Date(), "GMT", "dd-MMM-yyyy");
 
   // Body of email message
