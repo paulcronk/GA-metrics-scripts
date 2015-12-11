@@ -28,7 +28,7 @@ function emailAsPDF() {
   var subject = "Metrics mailing - " + Utilities.formatDate(new Date(), "GMT", "dd-MMM-yyyy");
 
   // Body of email message
-  var body = "\n\n Hello\n\nThis is a mailing of a Google Sheet.\n \n";
+  var body = "\n\nHello\n\nThis is a mailing of a Google Sheet.\n \n";
 
   /* Specify PDF export parameters
   // Taken from: code.google.com/p/google-apps-script-issues/issues/detail?id=3579
